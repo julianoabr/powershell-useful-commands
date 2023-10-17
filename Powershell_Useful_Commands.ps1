@@ -11,7 +11,7 @@ Get-WmiObject -list * -NameSpace root -Recurse -EA 0
 
 
 #MOVE CLUSTER GROUP TO ANOTHER NODE
-Move-ClusterGroup -Name "Cluster Group" -Cluster CLUSTER_NAME -Node SERVER-HYP001
+Move-ClusterGroup -Name "Cluster Group" -Cluster CLUSTER_NAME -Node AUTOMITESRV01
 
 
 #get windows disk serial number
